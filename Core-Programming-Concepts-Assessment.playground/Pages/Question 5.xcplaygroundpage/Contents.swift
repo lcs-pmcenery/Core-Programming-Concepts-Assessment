@@ -24,8 +24,13 @@ let temperatureInCelsius = -6
 let isSnowMakingEquipmentBroken = true
 
 // Answer question 5 below
+let openSkiHill = temperatureInCelsius < -5 && isSnowMakingEquipmentBroken == false || newSnowfallAmount > 10
 
-
+if openSkiHill {
+    print("Yay! Lets shred the slopes!")
+} else {
+    print("Oh no I guess I'll hang out in the chalet...")
+}
 /*:
  ## Now share your understanding
  
