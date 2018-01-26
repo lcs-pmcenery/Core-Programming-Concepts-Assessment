@@ -23,7 +23,11 @@
  
  */
 // Answer question 4 below
-
+var appsUsed = 7
+var hoursSpent = 4.5
+let mostPopularApp = "YouTube"
+let currentDate = "Friday, January 26, 2018"
+print("I used Int for appsUsed because that will be a whole number (you can't have half an app). Because we are including the parts of an hour, I decided that double will be easiest to use for hoursSpent. mostPopularApp will be a string because it is the NAME of the app. Current date is also a string because this is the easiest type to use when both letters and numbers are present.")
 /*:
  ## Now share your understanding
  
